@@ -1,0 +1,10 @@
+*.tmp
+*.bin
+*.conf
+*.env
+*.pyc
+*.DS_Store
+.vscode
+.idea
+secrets.py
+database.yml
