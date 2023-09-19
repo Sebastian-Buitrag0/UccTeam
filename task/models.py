@@ -10,4 +10,4 @@ class Task(models.Model):
     fkUser = models.ForeignKey(User, on_delete=models.CASCADE, null=False)
 
     def __str__(self):
-        return self.title+" ->" +self.state
+        return self.title+" -> " +self.state
