@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        {{form}}
+        <button type="submit">login</button>
+    </form>
+    {{msg}}
+</body>
+</html>

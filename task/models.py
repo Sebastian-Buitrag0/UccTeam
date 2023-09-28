@@ -11,3 +11,6 @@ class Task(models.Model):
 
     def __str__(self):
         return self.title+" -> " +self.state
+
+class Meta:
+    db_table = 'task'

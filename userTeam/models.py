@@ -12,4 +12,4 @@ class UserTeam(models.Model):
     isCreator = models.BooleanField(null=False) 
 
     def __str__(self):
-        return self.fkUser.username+" ->" +self.fkTeam.name
+        return self.fkUser.username+" -> " +self.fkTeam.name
